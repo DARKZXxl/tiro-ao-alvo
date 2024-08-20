@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #727272;
+} 
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main p {
+    padding: 10px 3px;
+    text-align: justify;
+}
+
+main h2 {
+    margin-top: 20px;
+}
+
+header {
+    padding: 10px 30px 10px 60px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+h1,h2,h3 {
+    color: rgb(36, 175, 250);
+}
+
+#section1 {
+    margin-top: 10px;
+    background-color: rgba(64, 188, 255, 0.841);
+    height: 180px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.37);
+    display: inline-block;
+
+}
+
+#img1 {
+    float: left;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-right: 10px;
+}
+
+main {
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 20px 0px 20px 0px;
+    padding-left: 10px;
+}
+
+li {
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
+tr:hover{
+    background-color: rgba(207, 207, 207, 0.378);
+    border-bottom: none;
+}
+
+table {
+    border-spacing: 0;
+    width: 580px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.251);
+
+}
+
+#table {
+    margin-top: 10px;
+    background-color: rgba(193, 193, 193, 0.01);
+}
+
+th {
+    font-weight: 200;
+    padding: 5px 3px 5px 0;
+}
+
+    
+
+td, th {
+    text-align: center;
+    color: black;
+}
+
+.pais {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: inline-block;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    right: 2px;
+}
+
+#ouro {
+    background-color: rgb(238, 255, 0);
+}
+
+#prata {
+    background-color: #c0c0c0;
+}
+
+#bronze {
+    background-color: #b75f5f;
+}
+
+td {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 6px 0 6px 0;
+    text-transform: capitalize;
+}
+
+
+thead {
+    background-color: rgba(219, 219, 219, 0.552);
+}
+
+button {
+    background-color: rgba(125, 125, 125, 0.766);
+    border: none;
+    padding: 10px 250px 10px 250px;
+
+    margin-top: 10px;
+    border-radius: 999px;
+    color: white;
+}
+
+.seta {
+    height: 30px;
+    position: relative;
+    top: 11px;
+    padding: 0;
+    margin: 0;
+}
+
+.extra-row {
+    display: none;
+}
+
+#img2,#img3 {
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+}
+
+#text-small {
+    margin-top: -14px;
+    margin-left: -100px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.img4 {
+    border-radius: 5px;
+}
+
+#fim td {
+    border: none;
+}
